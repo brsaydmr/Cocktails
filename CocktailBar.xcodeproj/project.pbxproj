@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53E4358E2A9ADDDF00AC1DE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E4358D2A9ADDDF00AC1DE2 /* AppDelegate.swift */; };
+		53E435902A9ADDDF00AC1DE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E4358F2A9ADDDF00AC1DE2 /* SceneDelegate.swift */; };
+		53E435922A9ADDDF00AC1DE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435912A9ADDDF00AC1DE2 /* ViewController.swift */; };
+		53E435952A9ADDDF00AC1DE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53E435932A9ADDDF00AC1DE2 /* Main.storyboard */; };
+		53E435972A9ADDE100AC1DE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E435962A9ADDE100AC1DE2 /* Assets.xcassets */; };
+		53E4359A2A9ADDE100AC1DE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53E435982A9ADDE100AC1DE2 /* LaunchScreen.storyboard */; };
+		53E435A52A9ADDE200AC1DE2 /* CocktailBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435A42A9ADDE200AC1DE2 /* CocktailBarTests.swift */; };
+		53E435AF2A9ADDE200AC1DE2 /* CocktailBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435AE2A9ADDE200AC1DE2 /* CocktailBarUITests.swift */; };
+		53E435B12A9ADDE200AC1DE2 /* CocktailBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435B02A9ADDE200AC1DE2 /* CocktailBarUITestsLaunchTests.swift */; };
+		53E435BE2A9AE11700AC1DE2 /* AnasayfaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435BD2A9AE11700AC1DE2 /* AnasayfaTableViewCell.swift */; };
+		53E435C02A9AE19200AC1DE2 /* Kategoriler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435BF2A9AE19200AC1DE2 /* Kategoriler.swift */; };
+		53E435C22A9AE62700AC1DE2 /* ViskiliVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435C12A9AE62700AC1DE2 /* ViskiliVC.swift */; };
+		53E435C62A9AE64900AC1DE2 /* CinliVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435C52A9AE64900AC1DE2 /* CinliVC.swift */; };
+		53E435C82A9AE65C00AC1DE2 /* TekilaliVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435C72A9AE65C00AC1DE2 /* TekilaliVC.swift */; };
+		53E435CA2A9AE66B00AC1DE2 /* RomluVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435C92A9AE66B00AC1DE2 /* RomluVC.swift */; };
+		53E435CD2A9AF8E600AC1DE2 /* ViskiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435CC2A9AF8E600AC1DE2 /* ViskiTableViewCell.swift */; };
+		53E435D12A9AF90200AC1DE2 /* CinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435D02A9AF90200AC1DE2 /* CinTableViewCell.swift */; };
+		53E435D32A9AF90C00AC1DE2 /* TekilaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435D22A9AF90C00AC1DE2 /* TekilaTableViewCell.swift */; };
+		53E435D52A9AF91900AC1DE2 /* RomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435D42A9AF91900AC1DE2 /* RomTableViewCell.swift */; };
+		53E435D82A9AFC2100AC1DE2 /* Viskili Kokteyller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435D72A9AFC2100AC1DE2 /* Viskili Kokteyller.swift */; };
+		53E435DA2A9B005C00AC1DE2 /* DetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435D92A9B005C00AC1DE2 /* DetayVC.swift */; };
+		53E435DC2A9B0AAB00AC1DE2 /* Vodkali Kokteyller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435DB2A9B0AAB00AC1DE2 /* Vodkali Kokteyller.swift */; };
+		53E435DE2A9B0ABF00AC1DE2 /* Cinli Kokteyller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435DD2A9B0ABF00AC1DE2 /* Cinli Kokteyller.swift */; };
+		53E435E02A9B0AD400AC1DE2 /* Tekilali Kokteyller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435DF2A9B0AD400AC1DE2 /* Tekilali Kokteyller.swift */; };
+		53E435E22A9B0AE400AC1DE2 /* Romlu Kokteyller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435E12A9B0AE400AC1DE2 /* Romlu Kokteyller.swift */; };
+		53E435E42A9B1B1100AC1DE2 /* VodkaliVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435E32A9B1B1100AC1DE2 /* VodkaliVC.swift */; };
+		53E435E62A9B1B2800AC1DE2 /* VodkaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E435E52A9B1B2800AC1DE2 /* VodkaTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53E435A12A9ADDE200AC1DE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53E435822A9ADDDF00AC1DE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53E435892A9ADDDF00AC1DE2;
+			remoteInfo = CocktailBar;
+		};
+		53E435AB2A9ADDE200AC1DE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53E435822A9ADDDF00AC1DE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53E435892A9ADDDF00AC1DE2;
+			remoteInfo = CocktailBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53E4358A2A9ADDDF00AC1DE2 /* CocktailBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocktailBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E4358D2A9ADDDF00AC1DE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53E4358F2A9ADDDF00AC1DE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		53E435912A9ADDDF00AC1DE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53E435942A9ADDDF00AC1DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53E435962A9ADDE100AC1DE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53E435992A9ADDE100AC1DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53E4359B2A9ADDE100AC1DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53E435A02A9ADDE200AC1DE2 /* CocktailBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocktailBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E435A42A9ADDE200AC1DE2 /* CocktailBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailBarTests.swift; sourceTree = "<group>"; };
+		53E435AA2A9ADDE200AC1DE2 /* CocktailBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocktailBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E435AE2A9ADDE200AC1DE2 /* CocktailBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailBarUITests.swift; sourceTree = "<group>"; };
+		53E435B02A9ADDE200AC1DE2 /* CocktailBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		53E435BD2A9AE11700AC1DE2 /* AnasayfaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaTableViewCell.swift; sourceTree = "<group>"; };
+		53E435BF2A9AE19200AC1DE2 /* Kategoriler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kategoriler.swift; sourceTree = "<group>"; };
+		53E435C12A9AE62700AC1DE2 /* ViskiliVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViskiliVC.swift; sourceTree = "<group>"; };
+		53E435C52A9AE64900AC1DE2 /* CinliVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinliVC.swift; sourceTree = "<group>"; };
+		53E435C72A9AE65C00AC1DE2 /* TekilaliVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TekilaliVC.swift; sourceTree = "<group>"; };
+		53E435C92A9AE66B00AC1DE2 /* RomluVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomluVC.swift; sourceTree = "<group>"; };
+		53E435CC2A9AF8E600AC1DE2 /* ViskiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViskiTableViewCell.swift; sourceTree = "<group>"; };
+		53E435D02A9AF90200AC1DE2 /* CinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinTableViewCell.swift; sourceTree = "<group>"; };
+		53E435D22A9AF90C00AC1DE2 /* TekilaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TekilaTableViewCell.swift; sourceTree = "<group>"; };
+		53E435D42A9AF91900AC1DE2 /* RomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomTableViewCell.swift; sourceTree = "<group>"; };
+		53E435D72A9AFC2100AC1DE2 /* Viskili Kokteyller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Viskili Kokteyller.swift"; sourceTree = "<group>"; };
+		53E435D92A9B005C00AC1DE2 /* DetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayVC.swift; sourceTree = "<group>"; };
+		53E435DB2A9B0AAB00AC1DE2 /* Vodkali Kokteyller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vodkali Kokteyller.swift"; sourceTree = "<group>"; };
+		53E435DD2A9B0ABF00AC1DE2 /* Cinli Kokteyller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cinli Kokteyller.swift"; sourceTree = "<group>"; };
+		53E435DF2A9B0AD400AC1DE2 /* Tekilali Kokteyller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tekilali Kokteyller.swift"; sourceTree = "<group>"; };
+		53E435E12A9B0AE400AC1DE2 /* Romlu Kokteyller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Romlu Kokteyller.swift"; sourceTree = "<group>"; };
+		53E435E32A9B1B1100AC1DE2 /* VodkaliVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodkaliVC.swift; sourceTree = "<group>"; };
+		53E435E52A9B1B2800AC1DE2 /* VodkaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodkaTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53E435872A9ADDDF00AC1DE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E4359D2A9ADDE200AC1DE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E435A72A9ADDE200AC1DE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		533E19D62AB0E71D00CFC560 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				53E435BD2A9AE11700AC1DE2 /* AnasayfaTableViewCell.swift */,
+				53E435CC2A9AF8E600AC1DE2 /* ViskiTableViewCell.swift */,
+				53E435E52A9B1B2800AC1DE2 /* VodkaTableViewCell.swift */,
+				53E435D02A9AF90200AC1DE2 /* CinTableViewCell.swift */,
+				53E435D22A9AF90C00AC1DE2 /* TekilaTableViewCell.swift */,
+				53E435D42A9AF91900AC1DE2 /* RomTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		533E19D72AB0E73600CFC560 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				53E4358D2A9ADDDF00AC1DE2 /* AppDelegate.swift */,
+				53E4358F2A9ADDDF00AC1DE2 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		533E19D82AB0E74E00CFC560 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				53E435BF2A9AE19200AC1DE2 /* Kategoriler.swift */,
+				53E435D72A9AFC2100AC1DE2 /* Viskili Kokteyller.swift */,
+				53E435DB2A9B0AAB00AC1DE2 /* Vodkali Kokteyller.swift */,
+				53E435DD2A9B0ABF00AC1DE2 /* Cinli Kokteyller.swift */,
+				53E435DF2A9B0AD400AC1DE2 /* Tekilali Kokteyller.swift */,
+				53E435E12A9B0AE400AC1DE2 /* Romlu Kokteyller.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		53E435812A9ADDDF00AC1DE2 = {
+			isa = PBXGroup;
+			children = (
+				53E4358C2A9ADDDF00AC1DE2 /* CocktailBar */,
+				53E435A32A9ADDE200AC1DE2 /* CocktailBarTests */,
+				53E435AD2A9ADDE200AC1DE2 /* CocktailBarUITests */,
+				53E4358B2A9ADDDF00AC1DE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53E4358B2A9ADDDF00AC1DE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53E4358A2A9ADDDF00AC1DE2 /* CocktailBar.app */,
+				53E435A02A9ADDE200AC1DE2 /* CocktailBarTests.xctest */,
+				53E435AA2A9ADDE200AC1DE2 /* CocktailBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53E4358C2A9ADDDF00AC1DE2 /* CocktailBar */ = {
+			isa = PBXGroup;
+			children = (
+				533E19D72AB0E73600CFC560 /* App */,
+				53E435CB2A9AE67F00AC1DE2 /* Views */,
+				53E435932A9ADDDF00AC1DE2 /* Main.storyboard */,
+				53E435962A9ADDE100AC1DE2 /* Assets.xcassets */,
+				533E19D62AB0E71D00CFC560 /* Cells */,
+				53E435982A9ADDE100AC1DE2 /* LaunchScreen.storyboard */,
+				53E4359B2A9ADDE100AC1DE2 /* Info.plist */,
+				533E19D82AB0E74E00CFC560 /* Models */,
+			);
+			path = CocktailBar;
+			sourceTree = "<group>";
+		};
+		53E435A32A9ADDE200AC1DE2 /* CocktailBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				53E435A42A9ADDE200AC1DE2 /* CocktailBarTests.swift */,
+			);
+			path = CocktailBarTests;
+			sourceTree = "<group>";
+		};
+		53E435AD2A9ADDE200AC1DE2 /* CocktailBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53E435AE2A9ADDE200AC1DE2 /* CocktailBarUITests.swift */,
+				53E435B02A9ADDE200AC1DE2 /* CocktailBarUITestsLaunchTests.swift */,
+			);
+			path = CocktailBarUITests;
+			sourceTree = "<group>";
+		};
+		53E435CB2A9AE67F00AC1DE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				53E435912A9ADDDF00AC1DE2 /* ViewController.swift */,
+				53E435C12A9AE62700AC1DE2 /* ViskiliVC.swift */,
+				53E435E32A9B1B1100AC1DE2 /* VodkaliVC.swift */,
+				53E435C52A9AE64900AC1DE2 /* CinliVC.swift */,
+				53E435C72A9AE65C00AC1DE2 /* TekilaliVC.swift */,
+				53E435C92A9AE66B00AC1DE2 /* RomluVC.swift */,
+				53E435D92A9B005C00AC1DE2 /* DetayVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53E435892A9ADDDF00AC1DE2 /* CocktailBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E435B42A9ADDE200AC1DE2 /* Build configuration list for PBXNativeTarget "CocktailBar" */;
+			buildPhases = (
+				53E435862A9ADDDF00AC1DE2 /* Sources */,
+				53E435872A9ADDDF00AC1DE2 /* Frameworks */,
+				53E435882A9ADDDF00AC1DE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocktailBar;
+			productName = CocktailBar;
+			productReference = 53E4358A2A9ADDDF00AC1DE2 /* CocktailBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53E4359F2A9ADDE200AC1DE2 /* CocktailBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E435B72A9ADDE200AC1DE2 /* Build configuration list for PBXNativeTarget "CocktailBarTests" */;
+			buildPhases = (
+				53E4359C2A9ADDE200AC1DE2 /* Sources */,
+				53E4359D2A9ADDE200AC1DE2 /* Frameworks */,
+				53E4359E2A9ADDE200AC1DE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53E435A22A9ADDE200AC1DE2 /* PBXTargetDependency */,
+			);
+			name = CocktailBarTests;
+			productName = CocktailBarTests;
+			productReference = 53E435A02A9ADDE200AC1DE2 /* CocktailBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53E435A92A9ADDE200AC1DE2 /* CocktailBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E435BA2A9ADDE200AC1DE2 /* Build configuration list for PBXNativeTarget "CocktailBarUITests" */;
+			buildPhases = (
+				53E435A62A9ADDE200AC1DE2 /* Sources */,
+				53E435A72A9ADDE200AC1DE2 /* Frameworks */,
+				53E435A82A9ADDE200AC1DE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53E435AC2A9ADDE200AC1DE2 /* PBXTargetDependency */,
+			);
+			name = CocktailBarUITests;
+			productName = CocktailBarUITests;
+			productReference = 53E435AA2A9ADDE200AC1DE2 /* CocktailBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53E435822A9ADDDF00AC1DE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					53E435892A9ADDDF00AC1DE2 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					53E4359F2A9ADDE200AC1DE2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 53E435892A9ADDDF00AC1DE2;
+					};
+					53E435A92A9ADDE200AC1DE2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 53E435892A9ADDDF00AC1DE2;
+					};
+				};
+			};
+			buildConfigurationList = 53E435852A9ADDDF00AC1DE2 /* Build configuration list for PBXProject "CocktailBar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53E435812A9ADDDF00AC1DE2;
+			productRefGroup = 53E4358B2A9ADDDF00AC1DE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53E435892A9ADDDF00AC1DE2 /* CocktailBar */,
+				53E4359F2A9ADDE200AC1DE2 /* CocktailBarTests */,
+				53E435A92A9ADDE200AC1DE2 /* CocktailBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53E435882A9ADDDF00AC1DE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E4359A2A9ADDE100AC1DE2 /* LaunchScreen.storyboard in Resources */,
+				53E435972A9ADDE100AC1DE2 /* Assets.xcassets in Resources */,
+				53E435952A9ADDDF00AC1DE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E4359E2A9ADDE200AC1DE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E435A82A9ADDE200AC1DE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53E435862A9ADDDF00AC1DE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E435C62A9AE64900AC1DE2 /* CinliVC.swift in Sources */,
+				53E435C82A9AE65C00AC1DE2 /* TekilaliVC.swift in Sources */,
+				53E435C22A9AE62700AC1DE2 /* ViskiliVC.swift in Sources */,
+				53E435DA2A9B005C00AC1DE2 /* DetayVC.swift in Sources */,
+				53E435922A9ADDDF00AC1DE2 /* ViewController.swift in Sources */,
+				53E435E42A9B1B1100AC1DE2 /* VodkaliVC.swift in Sources */,
+				53E435D82A9AFC2100AC1DE2 /* Viskili Kokteyller.swift in Sources */,
+				53E435C02A9AE19200AC1DE2 /* Kategoriler.swift in Sources */,
+				53E435BE2A9AE11700AC1DE2 /* AnasayfaTableViewCell.swift in Sources */,
+				53E435CA2A9AE66B00AC1DE2 /* RomluVC.swift in Sources */,
+				53E435D12A9AF90200AC1DE2 /* CinTableViewCell.swift in Sources */,
+				53E435DC2A9B0AAB00AC1DE2 /* Vodkali Kokteyller.swift in Sources */,
+				53E4358E2A9ADDDF00AC1DE2 /* AppDelegate.swift in Sources */,
+				53E435E02A9B0AD400AC1DE2 /* Tekilali Kokteyller.swift in Sources */,
+				53E435E22A9B0AE400AC1DE2 /* Romlu Kokteyller.swift in Sources */,
+				53E435DE2A9B0ABF00AC1DE2 /* Cinli Kokteyller.swift in Sources */,
+				53E435D52A9AF91900AC1DE2 /* RomTableViewCell.swift in Sources */,
+				53E435E62A9B1B2800AC1DE2 /* VodkaTableViewCell.swift in Sources */,
+				53E435CD2A9AF8E600AC1DE2 /* ViskiTableViewCell.swift in Sources */,
+				53E435902A9ADDDF00AC1DE2 /* SceneDelegate.swift in Sources */,
+				53E435D32A9AF90C00AC1DE2 /* TekilaTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E4359C2A9ADDE200AC1DE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E435A52A9ADDE200AC1DE2 /* CocktailBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E435A62A9ADDE200AC1DE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E435B12A9ADDE200AC1DE2 /* CocktailBarUITestsLaunchTests.swift in Sources */,
+				53E435AF2A9ADDE200AC1DE2 /* CocktailBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53E435A22A9ADDE200AC1DE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53E435892A9ADDDF00AC1DE2 /* CocktailBar */;
+			targetProxy = 53E435A12A9ADDE200AC1DE2 /* PBXContainerItemProxy */;
+		};
+		53E435AC2A9ADDE200AC1DE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53E435892A9ADDDF00AC1DE2 /* CocktailBar */;
+			targetProxy = 53E435AB2A9ADDE200AC1DE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53E435932A9ADDDF00AC1DE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53E435942A9ADDDF00AC1DE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53E435982A9ADDE100AC1DE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53E435992A9ADDE100AC1DE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53E435B22A9ADDE200AC1DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53E435B32A9ADDE200AC1DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53E435B52A9ADDE200AC1DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CocktailBar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aydemir.CocktailBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53E435B62A9ADDE200AC1DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CocktailBar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aydemir.CocktailBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53E435B82A9ADDE200AC1DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aydemir.CocktailBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocktailBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CocktailBar";
+			};
+			name = Debug;
+		};
+		53E435B92A9ADDE200AC1DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aydemir.CocktailBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocktailBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CocktailBar";
+			};
+			name = Release;
+		};
+		53E435BB2A9ADDE200AC1DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aydemir.CocktailBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CocktailBar;
+			};
+			name = Debug;
+		};
+		53E435BC2A9ADDE200AC1DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aydemir.CocktailBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CocktailBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53E435852A9ADDDF00AC1DE2 /* Build configuration list for PBXProject "CocktailBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E435B22A9ADDE200AC1DE2 /* Debug */,
+				53E435B32A9ADDE200AC1DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E435B42A9ADDE200AC1DE2 /* Build configuration list for PBXNativeTarget "CocktailBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E435B52A9ADDE200AC1DE2 /* Debug */,
+				53E435B62A9ADDE200AC1DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E435B72A9ADDE200AC1DE2 /* Build configuration list for PBXNativeTarget "CocktailBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E435B82A9ADDE200AC1DE2 /* Debug */,
+				53E435B92A9ADDE200AC1DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E435BA2A9ADDE200AC1DE2 /* Build configuration list for PBXNativeTarget "CocktailBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E435BB2A9ADDE200AC1DE2 /* Debug */,
+				53E435BC2A9ADDE200AC1DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53E435822A9ADDDF00AC1DE2 /* Project object */;
+}
